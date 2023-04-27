@@ -47,6 +47,41 @@ speed_ceiling:\t {wobble_params.speed_ceiling}
 """)
 ```
 
+## Visual Example
+
+There's a `test_binding.py` file that showcase how to use this binding in Python.
+
+This visual example requires `pyside6` dependency. But you can use any other library to  show how the lines are improved by this library.
+
+After you have built the module as shown in a previous step, we can execute this visual example using the following commands:
+
+```bash
+#we assume this folder was used to build the module
+#if not, go to the Build the bindings section of this readme file
+cd build 
+#we need to have the .so file in the folder where python will be executed
+cp ../test_binding.py . 
+#also we need the points.txt file
+cp ../points.txt .
+#make sure we have the pyside dependency
+pip3 install pyside6
+#run it
+python3 test_binding.py
+```
+
+After this, you should see the following widget in your screen:
+
+![Example Wide](example2.png?raw=true "Example Wide")
+
+To the left we see the line painted using the raw points.txt, without processing.
+To the right we have the smoothed line by the StrokeModeler class.
+
+The change here is subtle, but try drawing different lines with different widths, and add the pressure data received from the pen and you will notice the difference.
+
+You can change in the `test_binding.py` the line that contains the `pen.setWidth(10)` to draw lines thiner or wider.
+
+![Example Thin](example1.png?raw=true "Example Thin")
+
 Refer to the `test_binding.py` file for a complete example using this library.
 
 ## Common problems
