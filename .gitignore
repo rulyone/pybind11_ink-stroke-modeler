@@ -6,6 +6,7 @@
 /Testing/
 /_deps/
 /build/
+.DS_store
 CMakeCache.txt
 CMakeFiles
 cmake_install.cmake

@@ -2,3 +2,6 @@
 	path = ink-stroke-modeler
 	url = https://github.com/rulyone/ink-stroke-modeler.git
 	branch = fix_build_cmake
+[submodule "pybind11"]
+	path = pybind11
+	url = https://github.com/pybind/pybind11.git
