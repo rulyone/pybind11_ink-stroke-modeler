@@ -16,6 +16,7 @@ Also, I'm expanding my expertise in advanced Python concepts, including the inte
 ```bash
 git clone https://github.com/rulyone/pybind11_ink-stroke-modeler
 cd pybind11_ink-stroke-modeler
+git submodule update --init #to download git submodules dependencies (pybind11 and ink-stroke-modeler)
 mkdir build
 cd build
 cmake ..
