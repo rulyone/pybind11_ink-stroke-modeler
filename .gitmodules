@@ -1,0 +1,4 @@
+[submodule "ink-stroke-modeler"]
+	path = ink-stroke-modeler
+	url = https://github.com/rulyone/ink-stroke-modeler.git
+	branch = fix_build_cmake
