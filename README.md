@@ -8,8 +8,8 @@ Also, I'm expanding my expertise in advanced Python concepts, including the inte
 
 ## Requirements
 
-Python 3.10 (other versions could work, but not tested)
-CMake 3.19 or higher (tested with 3.25)
+* Python 3.10 (other versions could work, but not tested)
+* CMake 3.19 or higher (tested with 3.25)
 
 ## Build the bindings
 
@@ -22,7 +22,7 @@ cmake ..
 make
 ```
 
-If everything goes good, you should see a 100% of built targets without errors, and also a new file named `smooth_lines.cpython-311-darwin.so` or similar (ending with .so)
+If everything goes _smooth_, you should see a 100% of built targets without errors, and also a new file named `smooth_lines.cpython-311-darwin.so` or similar (ending with .so)
 
 ## Usage
 
