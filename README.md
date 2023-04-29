@@ -1,5 +1,12 @@
 # Pybind11 bindings for the Ink Stroke Modeler Google Library
 
+From the original C++ project:
+
+*This library smooths raw freehand input and predicts the input's motion to minimize display latency. It turns noisy pointer input from touch/stylus/etc. into the beautiful stroke patterns of brushes/markers/pens/etc.
+
+Be advised that this library was designed to model handwriting, and as such, prioritizes smooth, good-looking curves over precise recreation of the input.*
+
+
 *Why?*
 
 C++ libraries are fast. Really fast. If they're well written with a good interface (such as this case), using python bindings is best to maintain C++ performance while enabling its usage in Python code through pybind11 instead of rewriting it. 
